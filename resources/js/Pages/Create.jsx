@@ -12,6 +12,13 @@ export default function Create() {
 
     return (
         <>
+            <Head>
+                <meta
+                    head-key="description"
+                    name="description"
+                    content="This is the CREATE description"
+                />
+            </Head>
             <h1 className="title">Create a new post</h1>
             <div className="w-1/2 mx-auto">
                 <form onSubmit={submit}>
